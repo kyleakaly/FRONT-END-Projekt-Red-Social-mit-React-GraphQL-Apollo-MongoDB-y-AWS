@@ -1,0 +1,29 @@
+@import '../../../../scss/index.scss';
+
+
+.MostrarUsuarios{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 12px 0;
+    align-items: baseline;
+
+        p{
+            display: block;
+            margin-right: 20px;
+            color: #393939;
+            span {
+                padding-right: 4px;
+                color: black;
+                font-weight: bold;
+
+            }
+
+            &.link{
+                cursor: pointer;
+            }
+        }
+
+}

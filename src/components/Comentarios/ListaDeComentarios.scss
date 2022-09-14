@@ -1,0 +1,93 @@
+@import '../../scss/index.scss';
+
+.comentarios{
+
+    a{
+        color: black!important;
+    }
+
+    margin: 0px auto;
+
+    .ui.grid.organizartodo{
+        border-bottom: 1px dashed #bebebe;
+        height: 510px!important;
+        overflow-y: scroll !important;
+        overflow-x: hidden;
+        width: 104%;
+         
+    }
+
+    ::-webkit-scrollbar{
+        width: 2px;
+
+    }
+  
+    .arreglarcomentarios{
+
+        display: grid;
+        grid-template-columns: 30px 100px;
+        grid-template-rows: auto;
+
+        .imagencomen{
+            border-radius: 100%!important;
+            width: 30px;
+            height: 30px;
+            border: 2px solid rgb(148, 148, 255);
+            grid-area: 1 / 1 / 1 / 2 ;
+            gap: 4px;
+        }
+
+        .organizartextoscomentarios{
+            display: grid;
+            grid-template-rows: 20px;
+            flex-direction: column;
+            align-items: baseline;
+            justify-content: start;
+            margin-left: 10px;
+
+            h2{
+                margin-top: 0!important;
+                display: flex;
+                font-size: 12px!important;
+                justify-content: start;
+            }
+
+            p{
+                text-align: left;
+                width: 100px;
+            }
+
+        }
+
+    }
+
+
+}
+
+@media only screen and (max-width: 767px){
+
+    .comentarios{
+
+        .ui.grid.organizartodo{
+            height: 298px !important;
+            overflow-y: scroll !important;
+            overflow-x: hidden;
+             
+        }
+    
+        ::-webkit-scrollbar{
+            width: 2px;
+    
+        }
+    }
+
+    .organizartextoscomentarios{
+
+        p{
+            text-align: left;
+            width: 80px!important;
+        }
+      
+    }
+
+}

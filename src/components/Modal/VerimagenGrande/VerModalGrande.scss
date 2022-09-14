@@ -1,0 +1,48 @@
+@import '../../../scss/index.scss';
+
+ .modal-Imagen{
+     width: 600px!important;
+     height: 600px!important;
+
+
+
+   
+
+    .ui.grid{
+        margin:0!important;
+        height: 100%!important;
+        width: 100%;
+       
+    }
+
+    .modal-publicacion_left{
+    
+        background-size:100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        border-right: 1px solid #e6e6e6;
+        
+    }
+
+    .modal-publicacion_rigth{
+
+        height: 100%!important;
+        box-sizing: border-box!important;
+        width: 100%!important;
+
+    }
+ }
+
+
+ @media only screen and (max-width: 767px){
+
+    .modal-Imagen{
+        min-width: 200px!important;
+        max-width: 380px!important;
+        min-height: 200!important;
+        max-height: 380px!important;
+
+ }
+
+
+}

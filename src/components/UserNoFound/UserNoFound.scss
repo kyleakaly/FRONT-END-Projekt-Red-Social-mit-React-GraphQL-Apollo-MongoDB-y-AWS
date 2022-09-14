@@ -1,0 +1,27 @@
+@import '../../scss/index.scss';
+
+.user-not-found {
+    padding: 30px 0;
+    p{
+        text-align: center;
+
+        &:nth-child(1){
+            font-size: 26px;
+            font-weight: bold;
+        }
+
+        &:nth-child(2){
+            font-size: 18px;
+        }
+
+       
+    }
+
+    a{
+        display: block;
+        font-size: 16px;
+        text-decoration: underline;
+        text-align: center;
+        color: rgb(75, 0, 250);;
+    }
+}

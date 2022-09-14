@@ -1,0 +1,51 @@
+@import '../../../../scss/index.scss';
+
+
+.prewiew-publication_image{
+
+    &:hover{
+        cursor:pointer;
+        opacity: 0.9;
+        
+
+    }
+
+}
+
+@media only screen and (max-width: 767px){
+
+    .ui.grid {
+        margin-left: 0!important;
+    }
+
+    .prewiew-publication_image{
+        width: 400px!important;
+        height: 300px!important;
+        object-fit: cover;
+       
+    }
+
+    .publicaciones .ui.grid {
+        display: flex !important;
+        flex-wrap: nowrap !important;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+
+       
+    }
+
+    .publicaciones{
+        h1{
+            font-size: 26px!important;
+        }
+
+    }
+
+    .ui[class*="four column"].grid>.column:not(.row){
+        width: 100%!important;
+    }
+
+}

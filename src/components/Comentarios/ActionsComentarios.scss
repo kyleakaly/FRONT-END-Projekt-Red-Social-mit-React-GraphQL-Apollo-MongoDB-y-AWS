@@ -1,0 +1,72 @@
+@import '../../scss/index.scss';
+
+.actions{
+    line-height: 36px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    gap: 0;
+    align-items: baseline;
+
+
+    .likes{
+
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        gap: 2px;
+
+
+        .iconolike{
+    
+            
+            &.active{
+                color: red;
+            }
+            
+        }
+    
+
+    }
+
+  
+  .seguidores{
+    color: black!important;
+  }
+
+    span{
+        color: black;
+        margin-left: 2px;
+    }
+
+    .darLike{
+        background: none!important;
+        cursor:pointer;
+        display: flex!important;
+
+        
+
+    }
+
+    .mano{
+        cursor: pointer!important;
+    }
+
+}
+
+
+@media only screen and (max-width: 767px){
+
+    .iconolike{
+        
+        margin-right: 0px!important;
+
+        &.active{
+            color: red;
+        }
+       
+    }
+
+   
+}

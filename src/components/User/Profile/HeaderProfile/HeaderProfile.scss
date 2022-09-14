@@ -1,0 +1,44 @@
+@import '../../../../scss/index.scss';
+
+.header-profile{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 20px;
+    align-items: baseline;
+
+ h2 {
+    
+    text-align: left;
+    color: black;
+    padding: 10px 0px;
+    text-transform: uppercase;
+  
+}
+
+.ui.button {
+
+    color: rgb(255, 255, 255) ;
+    background-color: rgb(0, 153, 255);
+    height: 32px;
+    line-height: 10px;
+    box-shadow: 0 0 2px #bebebe ;
+    
+}
+
+
+
+}
+
+@media only screen and (max-width: 767px){
+
+    .header-profile{
+
+        .btn-danger{
+            font-size: 12px!important;
+        }
+
+    }
+
+}

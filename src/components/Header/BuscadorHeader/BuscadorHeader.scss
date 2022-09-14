@@ -1,0 +1,64 @@
+@import '../../../scss/index.scss';
+
+.search-users {
+
+    .ui.search .results {
+    max-width: 100%!important;
+    min-width: 200px;
+    max-height: 200px!important;
+    overflow-y: scroll;
+}
+
+    .ui.left.icon.input{
+        width: 100%!important;
+    }
+
+    .Arreglaresto{
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: left;
+        align-items: center;
+
+        height: 60px;
+      
+
+        .results.transition.visible {
+            width: 200px!important;
+            max-height: 200px!important;
+            overflow-y: scroll!important;
+            height: 200px;
+        }
+        img{
+            width: 60px!important;
+            height: 60px!important;
+border-radius: 1000px!important;
+        }
+
+        h2{
+            align-self: baseline;
+            justify-self: baseline;
+            color: black;
+        }
+
+    }
+
+
+}
+
+@media only screen and (max-width: 767px){
+.ui.search .results {
+    max-width: 400px!important;
+    min-width: 280px;
+    max-height: 200px!important;
+    overflow-y: scroll;
+}
+
+.profile_left .ui.image.avatar{
+
+    width: 100px!important;
+    height: 100px!important;
+}
+}

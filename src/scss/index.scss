@@ -1,0 +1,17 @@
+@import './color.scss';
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap');
+.App {
+    background-color:$background-light;
+    height: 100vh;
+    width: 100%;
+    font-family: 'Nunito', sans-serif;
+}
+
+.btn-danger{
+    background-color: rgb(255, 89, 89)!important;
+    border-color:rgb(255, 89, 89)!important ; 
+}
+
+.dimmed.dimmable>.ui.visible.dimmer, .ui.active.dimmer {
+    z-index: 99999;
+}

@@ -1,0 +1,38 @@
+@import '../../../scss/index.scss';
+
+.contenidofollower{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 12px 0;
+    align-items: baseline;
+
+        p{
+            display: block;
+            margin-right: 20px;
+            color: #393939;
+            span {
+                padding-right: 4px;
+                color: black;
+                font-weight: bold;
+
+            }
+
+            &.link{
+                cursor: pointer;
+            }
+        }
+    }
+
+
+    @media only screen and (max-width: 767px){
+
+        .contenidofollower{
+
+            padding-bottom: 10px;
+            gap: 0px;
+
+        }
+
+    }

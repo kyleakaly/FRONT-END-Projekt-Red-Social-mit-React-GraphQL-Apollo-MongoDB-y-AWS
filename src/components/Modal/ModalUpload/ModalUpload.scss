@@ -1,0 +1,110 @@
+@import '../../../scss/index.scss';
+
+
+
+
+
+
+.subirContenido{
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80%!important;
+    align-items: center;
+   
+    .editarboton{
+
+        display: flex;
+       
+        
+        color: #fff;
+        text-shadow: none;
+        background-image: none;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+      z-index: 10000;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      padding: 10px!important;
+      
+        border-radius: 0px!important;
+        &:hover{
+            background-color: #545252!important;
+            
+            }
+
+            &.red{
+
+                background-color: #db2828 !important;
+            }
+        
+            &.blue{
+                
+            background-color: rgb(60, 125, 255);
+        
+           
+        
+            }
+    }
+
+   
+       
+    
+    .icono{
+
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        transition: 400ms;
+        height: 100%;
+        
+       
+        
+       
+        .upload{
+
+
+            font-size: 46px;
+            text-align: center;
+
+            transition: 400ms;
+
+            &:hover{
+                transform: scale(1.1);
+            }
+            
+
+        }
+        p{
+            text-align: center;
+        }
+    }
+
+    .image{
+        height: 100%!important;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+     
+        background-repeat:no-repeat ;
+        background-position: center;
+        background-size:cover !important ;
+        border-radius: 10px;
+
+        
+    }
+}
+
+.publishing{
+    p{
+        margin-top: 80px;
+        font-size: 18px;
+    }
+}
